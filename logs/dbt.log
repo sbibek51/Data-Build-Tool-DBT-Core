@@ -377,3 +377,69 @@ https://docs.getdbt.com/docs/configure-your-profile
 [0m09:54:39.813445 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002234CBF17F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022362D33320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022352368DA0>]}
 [0m09:54:39.813445 [debug] [MainThread]: Flushing usage events
 [0m09:54:40.292252 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:15:00.946364 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DDC5D4710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DDD124BF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DDEB238C0>]}
+
+
+============================== 10:15:00.954058 | c750518d-883f-4a6a-87b1-673080c75d4c ==============================
+[0m10:15:00.954058 [info ] [MainThread]: Running with dbt=1.11.2
+[0m10:15:00.955656 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\TravelMate\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt init', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m10:16:54.077924 [info ] [MainThread]: A project called bibek_dbt_project already exists here.
+[0m10:16:54.079291 [debug] [MainThread]: Command `dbt init` succeeded at 10:16:54.079291 after 113.31 seconds
+[0m10:16:54.080448 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DDF827050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DDF1727B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DDF6E4E30>]}
+[0m10:16:54.080448 [debug] [MainThread]: Flushing usage events
+[0m10:16:54.497218 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:17:24.519259 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028CAD219C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028CB01C28D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028CB01C3B90>]}
+
+
+============================== 10:17:24.531177 | 635566ea-f284-45bf-84f4-1a404635c176 ==============================
+[0m10:17:24.531177 [info ] [MainThread]: Running with dbt=1.11.2
+[0m10:17:24.532176 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\TravelMate\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m10:17:45.121418 [debug] [MainThread]: Starter project path: D:\DBT\.venv\Lib\site-packages\dbt\include\starter_project
+[0m10:17:45.180156 [info ] [MainThread]: 
+Your new dbt project "bibek_dbt_project_1" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:17:45.183167 [info ] [MainThread]: Setting up your profile.
+[0m10:18:24.710081 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m10:18:24.711084 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m10:18:24.712082 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m10:23:27.652066 [info ] [MainThread]: Profile bibek_dbt_project_1 written to C:\Users\TravelMate\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:23:27.654587 [debug] [MainThread]: Command `dbt init` succeeded at 10:23:27.654587 after 363.36 seconds
+[0m10:23:27.655692 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028CC4113F80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028CC3F9F440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028CC40AD910>]}
+[0m10:23:27.655692 [debug] [MainThread]: Flushing usage events
+[0m10:23:28.122097 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:24:00.983581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000198D77CCAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000198DA247E60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000198DA244620>]}
+
+
+============================== 10:24:00.992597 | c5d16655-7849-476e-9e1c-d39af42389c8 ==============================
+[0m10:24:00.992597 [info ] [MainThread]: Running with dbt=1.11.2
+[0m10:24:00.994143 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\TravelMate\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m10:24:01.020766 [info ] [MainThread]: dbt version: 1.11.2
+[0m10:24:01.021766 [info ] [MainThread]: python version: 3.12.9
+[0m10:24:01.024329 [info ] [MainThread]: python path: D:\DBT\.venv\Scripts\python.exe
+[0m10:24:01.026349 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m10:24:02.268998 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m10:24:02.268998 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m10:24:02.269999 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m10:24:03.327738 [info ] [MainThread]: Using profiles dir at C:\Users\TravelMate\.dbt
+[0m10:24:03.328740 [info ] [MainThread]: Using profiles.yml file at C:\Users\TravelMate\.dbt\profiles.yml
+[0m10:24:03.329734 [info ] [MainThread]: Using dbt_project.yml file at D:\DBT\dbt_project.yml
+[0m10:24:03.330777 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m10:24:03.331732 [debug] [MainThread]: Command `dbt debug` failed at 10:24:03.331732 after 2.61 seconds
+[0m10:24:03.333336 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000198DA94DBE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000198EDBF4A40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000198EBE2EA50>]}
+[0m10:24:03.333336 [debug] [MainThread]: Flushing usage events
+[0m10:24:03.746482 [debug] [MainThread]: An error was encountered while trying to flush usage events
