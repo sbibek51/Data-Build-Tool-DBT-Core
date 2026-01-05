@@ -13,5 +13,27 @@ models:
         - name: sales_id
           data_tests:
             - unique
-            - not null
- 
+            - not_null
+
+  - name: bronze_store
+    columns:
+        - name: store_sk
+          data_tests:
+            - unique
+        
+    
+        - name: store_name
+          data_tests:
+            - accepted_values:
+                arguments:
+                  values: ['Megamart Manhattan','Megamart Brooklyn','Megamart Austin','Megamart San Jose', 'Megamart Toronto']
+                config:
+                  severity: warn
+   
+        - name: country
+          data_tests:
+            - accepted_values:
+                arguments:
+                  values: ['USA','CANADA']
+                config:
+                  severity: warn
